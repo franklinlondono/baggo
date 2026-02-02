@@ -1,0 +1,1 @@
+console.log("Cargando buscador de sugerencias...");document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("search-bar");e&&e.addEventListener("input",function(n){console.log("Buscando: "+n.target.value)})});
